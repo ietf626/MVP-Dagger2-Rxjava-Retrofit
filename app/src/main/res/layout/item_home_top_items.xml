@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/fragment_main_page">
+
+    <com.example.arron.demo.view.component.MainPageItemView
+        android:layout_marginTop="@dimen/dp5"
+        android:id="@+id/home_item_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:textColor="@color/white"
+        app:left_text="@string/home_item_short_rent"
+        app:middle_top_text="@string/home_item_be_landlord"
+        app:middle_bottom_text="@string/home_item_favorite"
+        app:right_top_text="@string/home_item_order"
+        app:right_bottom_text="@string/home_item_oneyuan_house"
+        app:left_background="@color/home_item_red"
+        app:middle_top_background="@color/home_item_red"
+        app:middle_bottom_background="@color/home_item_red"
+        app:right_top_background="@color/home_item_red"
+        app:right_bottom_background="@color/home_item_red" />
+
+    <com.example.arron.demo.view.component.MainPageItemView
+        android:layout_marginTop="@dimen/dp5"
+        android:id="@+id/home_item_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:textColor="@color/white"
+        app:left_text="@string/home_item_long_rent"
+        app:middle_top_text="@string/home_item_be_landlord"
+        app:middle_bottom_text="@string/home_item_favorite"
+        app:right_top_text="@string/home_item_order"
+        app:right_bottom_text="@string/home_item_oneyuan_house"
+        app:left_background="@color/home_item_blue"
+        app:middle_top_background="@color/home_item_blue"
+        app:middle_bottom_background="@color/home_item_blue"
+        app:right_top_background="@color/home_item_blue"
+        app:right_bottom_background="@color/home_item_blue" />
+
+    <com.example.arron.demo.view.component.MainPageItemView
+        android:layout_marginTop="@dimen/dp5"
+        android:id="@+id/home_item_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:textColor="@color/white"
+        app:left_text="@string/home_item_second_house"
+        app:middle_top_text="@string/home_item_be_landlord"
+        app:middle_bottom_text="@string/home_item_favorite"
+        app:right_top_text="@string/home_item_order"
+        app:right_bottom_text="@string/home_item_oneyuan_house"
+        app:left_background="@color/home_item_green"
+        app:middle_top_background="@color/home_item_green"
+        app:middle_bottom_background="@color/home_item_green"
+        app:right_top_background="@color/home_item_green"
+        app:right_bottom_background="@color/home_item_green" />
+
+    <com.example.arron.demo.view.component.MainPageItemView
+        android:layout_marginTop="@dimen/dp5"
+        android:id="@+id/home_item_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:textColor="@color/white"
+        app:left_text="@string/home_item_new_house"
+        app:middle_top_text="@string/home_item_be_landlord"
+        app:middle_bottom_text="@string/home_item_favorite"
+        app:right_top_text="@string/home_item_order"
+        app:right_bottom_text="@string/home_item_oneyuan_house"
+        app:left_background="@color/home_item_yellow"
+        app:middle_top_background="@color/home_item_yellow"
+        app:middle_bottom_background="@color/home_item_yellow"
+        app:right_top_background="@color/home_item_yellow"
+        app:right_bottom_background="@color/home_item_yellow" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MVP+Dagger2+Rxjava+Retrofit</string>
+
+    <string name="home_item_short_rent">短租</string>
+    <string name="home_item_long_rent">长租</string>
+    <string name="home_item_oneyuan_house">一元民宿</string>
+    <string name="home_item_be_landlord">我做房东</string>
+    <string name="home_item_favorite">收藏</string>
+    <string name="home_item_order">订单</string>
+    <string name="home_item_second_house">二手房</string>
+    <string name="home_item_new_house">新房</string>
+
+    <string name="tab_main">主页</string>
+    <string name="tab_favourite">收藏</string>
+    <string name="tab_message">消息</string>
+    <string name="tab_what">上原</string>
+    <string name="tab_mine">我的</string>
+
+
+    <string name="btn_text_load_data">Load Sample Data</string>
+    <string name="btn_text_retry">Retry</string>
+
+    <string name="view_text_email">Email:</string>
+    <string name="view_text_followers">Followers:</string>
+    <string name="view_text_description">Description:</string>
+
+    <string name="string_content_description">Non accessible view</string>
+</resources>

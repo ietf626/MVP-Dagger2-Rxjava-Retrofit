@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <com.example.arron.demo.view.component.HomeItemTextView
+        android:id="@+id/left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text="短租"
+        android:clickable="true"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="@dimen/home_item_divider"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.example.arron.demo.view.component.HomeItemTextView
+            android:id="@+id/middle_top"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="我做房东"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_item_divider"
+            android:background="@color/white" />
+
+        <com.example.arron.demo.view.component.HomeItemTextView
+            android:id="@+id/middle_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="收藏"
+            android:clickable="true"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/home_item_divider"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.example.arron.demo.view.component.HomeItemTextView
+            android:id="@+id/right_top"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="订单"
+            android:clickable="true"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_item_divider"
+            android:background="@color/white" />
+
+        <com.example.arron.demo.view.component.HomeItemTextView
+            android:id="@+id/right_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:gravity="center"
+            android:clickable="true"
+            android:text="一元民宿"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

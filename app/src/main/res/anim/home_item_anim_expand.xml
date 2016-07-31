@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale
+        android:interpolator= "@android:anim/linear_interpolator"
+        android:fromXScale="0.95"
+        android:toXScale="1"
+        android:fromYScale="0.95"
+        android:toYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="0"
+        android:duration="150"
+        android:repeatCount="0"
+        android:fillAfter="true"/>
+</set>
